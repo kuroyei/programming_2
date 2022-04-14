@@ -27,8 +27,7 @@ int main(){
 
   /* 後半5つの要素の最大を表示する */
   // ここを実装
-  // cout << max(x, N/2, N) << endl;
   cout << max(x+N/2, N/2) << endl; // Because repeat 5 times
 
-    return 0;
+  return 0;
 }
