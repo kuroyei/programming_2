@@ -9,20 +9,6 @@ void showArray(int *l, int *r){
 }
 
 void bubbleSort(int *l, int *r){
-   // ここを作る
-  //  int r = r - l; // Get last index
-  //  int tmp;
-
-  //  for(int i=0;i<r;i++){
-  //    for(int j=i+1;j<=r;j++){
-  //      if(l[i] > l[j]){
-  //        tmp = l[i];
-  //        l[i] = l[j];
-  //        l[j] = tmp;
-  //      }
-  //    }
-  //  }
-
   int tmp;
 
   for(int *i=l;i<r;i++){
