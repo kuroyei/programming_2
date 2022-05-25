@@ -79,7 +79,7 @@ void showCalendar(const Date& d){
 
   // while(getWeek(date)!=static_cast<Week>(w)){
 
-  while(((static_cast<int>(getWeek(d)) - (d.day-1)%7)+7)%7!=static_cast<Week>(w)){
+  while(((static_cast<int>(getWeek(d)) - (d.day-1)%7)+7)%7!=w){
     cout << setw(3) << ' ';
     w++;
   }
